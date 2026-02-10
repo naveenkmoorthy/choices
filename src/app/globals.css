@@ -7,5 +7,53 @@
 }
 
 body {
-  @apply min-h-screen bg-slate-950 text-slate-100;
+  @apply min-h-screen bg-slate-950 text-slate-100 antialiased;
+}
+
+@layer utilities {
+  .text-readable {
+    @apply text-slate-100;
+    text-shadow: 0 1px 1px rgb(2 6 23 / 55%);
+  }
+
+  .text-readable-muted {
+    @apply text-slate-300;
+  }
+
+  .glow-accent {
+    box-shadow:
+      0 0 0 1px rgb(56 189 248 / 15%),
+      0 10px 40px rgb(8 47 73 / 40%),
+      inset 0 1px 0 rgb(255 255 255 / 6%);
+  }
+
+  .decorative-bg {
+    background-image:
+      radial-gradient(circle at 12% 20%, rgb(6 182 212 / 24%), transparent 34%),
+      radial-gradient(circle at 88% 12%, rgb(99 102 241 / 20%), transparent 36%),
+      radial-gradient(circle at 50% 100%, rgb(14 116 144 / 26%), transparent 44%),
+      linear-gradient(155deg, rgb(2 6 23) 0%, rgb(3 7 18) 45%, rgb(15 23 42) 100%);
+  }
+
+  .decorative-texture {
+    background-image:
+      radial-gradient(circle, rgb(148 163 184 / 7%) 1px, transparent 1px),
+      linear-gradient(115deg, rgb(30 41 59 / 16%), transparent 55%);
+    background-size:
+      4px 4px,
+      100% 100%;
+    background-position: 0 0;
+    mix-blend-mode: soft-light;
+    opacity: 0.65;
+  }
+}
+
+@layer components {
+  .surface-panel {
+    @apply rounded-2xl border border-slate-200/15 bg-slate-950/55 p-6 backdrop-blur-xl;
+  }
+
+  .surface-panel-elevated {
+    @apply surface-panel glow-accent;
+  }
 }
