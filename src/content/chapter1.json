@@ -8,7 +8,6 @@
       "speaker": "Narrator",
       "text": "Rain washes over Sol City while your phone lights up with one message: \"Rooftop. Midnight. Come alone.\"",
       "background": "Sol City Rooftops",
-      "sceneImage": "/scenes/sol-city-rooftops.svg",
       "character": "You",
       "choices": [
         {
@@ -30,7 +29,6 @@
       "speaker": "Aria",
       "text": "You made it. Good. The city council is hiding something, and I need someone brave enough to expose it.",
       "background": "Rooftop Garden",
-      "sceneImage": "/scenes/rooftop-garden.svg",
       "character": "Aria",
       "choices": [
         {
@@ -52,7 +50,6 @@
       "speaker": "Kai",
       "text": "You called me and then asked me not to ask questions? That's not how friendship works.",
       "background": "Rainy Alley",
-      "sceneImage": "/scenes/rainy-alley.svg",
       "character": "Kai",
       "choices": [
         {
@@ -74,7 +71,6 @@
       "speaker": "Narrator",
       "text": "By dawn, your leak has gone viral. Sol City will never be the same, and your name is everywhere.",
       "background": "City Sunrise",
-      "sceneImage": "/scenes/city-sunrise.svg",
       "character": "You",
       "choices": []
     },
@@ -83,7 +79,6 @@
       "speaker": "Narrator",
       "text": "You walk away richer but alone, watching someone else become the face of the revolution.",
       "background": "Private Penthouse",
-      "sceneImage": "/scenes/private-penthouse.svg",
       "character": "You",
       "choices": []
     },
@@ -92,7 +87,6 @@
       "speaker": "Narrator",
       "text": "Together, you and Kai expose the truth. The city gets justice, and your bond becomes unbreakable.",
       "background": "Press Conference",
-      "sceneImage": "/scenes/press-conference.svg",
       "character": "You + Kai",
       "choices": []
     }

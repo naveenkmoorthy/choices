@@ -10,7 +10,6 @@ This repository contains a portfolio-friendly starter for a branching narrative 
 - Save/load helpers using localStorage (`src/game/saves.ts`)
 - Zustand state store (`src/store/useGameStore.ts`)
 - UI components for HUD, story scene, and choices
-- Scene artwork placeholders in `public/scenes/*.svg`
 
 ## Run locally
 
@@ -20,12 +19,6 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
-
-## Add your own scene art
-
-1. Put image files in `public/scenes/` (jpg, png, webp, or svg).
-2. Set each node's `sceneImage` path in `src/content/chapter1.json`.
-3. Keep the image aspect roughly 16:9 for best results.
 
 ## Next improvements
 

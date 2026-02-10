@@ -23,7 +23,6 @@ export type StoryNode = {
   speaker: string;
   text: string;
   background: string;
-  sceneImage: string;
   character?: string;
   choices: StoryChoice[];
 };
