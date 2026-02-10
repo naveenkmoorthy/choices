@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aria portrait">
+  <defs>
+    <linearGradient id="aria-bg" x1="24" y1="24" x2="232" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="128" fill="url(#aria-bg)"/>
+  <circle cx="128" cy="104" r="46" fill="#F5F3FF" fill-opacity="0.82"/>
+  <path d="M64 210C72 170 97 148 128 148C159 148 184 170 192 210" fill="#F5F3FF" fill-opacity="0.82"/>
+  <text x="128" y="238" fill="#FDF4FF" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700" text-anchor="middle">ARIA</text>
+</svg>
