@@ -1,0 +1,100 @@
+{
+  "chapterId": "chapter-1",
+  "title": "Pilot Episode: Neon Promises",
+  "startNodeId": "intro",
+  "nodes": [
+    {
+      "id": "intro",
+      "speaker": "Narrator",
+      "text": "Rain washes over Sol City while your phone lights up with one message: \"Rooftop. Midnight. Come alone.\"",
+      "background": "Sol City Rooftops",
+      "sceneImage": "/scenes/sol-city-rooftops.svg",
+      "character": "You",
+      "choices": [
+        {
+          "id": "choice_intro_1",
+          "label": "Go to the rooftop anyway.",
+          "nextId": "meet-aria",
+          "effects": { "confidence": 2 }
+        },
+        {
+          "id": "choice_intro_2",
+          "label": "Ask your best friend for backup.",
+          "nextId": "meet-friend",
+          "effects": { "confidence": 1, "romance": 1 }
+        }
+      ]
+    },
+    {
+      "id": "meet-aria",
+      "speaker": "Aria",
+      "text": "You made it. Good. The city council is hiding something, and I need someone brave enough to expose it.",
+      "background": "Rooftop Garden",
+      "sceneImage": "/scenes/rooftop-garden.svg",
+      "character": "Aria",
+      "choices": [
+        {
+          "id": "choice_aria_1",
+          "label": "I'm in. Tell me everything.",
+          "nextId": "ending-hero",
+          "effects": { "confidence": 2, "romance": 1 }
+        },
+        {
+          "id": "choice_aria_2",
+          "label": "Not for free. What's the reward?",
+          "nextId": "ending-mercenary",
+          "effects": { "coins": 3 }
+        }
+      ]
+    },
+    {
+      "id": "meet-friend",
+      "speaker": "Kai",
+      "text": "You called me and then asked me not to ask questions? That's not how friendship works.",
+      "background": "Rainy Alley",
+      "sceneImage": "/scenes/rainy-alley.svg",
+      "character": "Kai",
+      "choices": [
+        {
+          "id": "choice_kai_1",
+          "label": "Trust me and stay close.",
+          "nextId": "ending-partners",
+          "effects": { "romance": 2 }
+        },
+        {
+          "id": "choice_kai_2",
+          "label": "You're right. I'll explain everything.",
+          "nextId": "ending-hero",
+          "effects": { "confidence": 1, "romance": 1 }
+        }
+      ]
+    },
+    {
+      "id": "ending-hero",
+      "speaker": "Narrator",
+      "text": "By dawn, your leak has gone viral. Sol City will never be the same, and your name is everywhere.",
+      "background": "City Sunrise",
+      "sceneImage": "/scenes/city-sunrise.svg",
+      "character": "You",
+      "choices": []
+    },
+    {
+      "id": "ending-mercenary",
+      "speaker": "Narrator",
+      "text": "You walk away richer but alone, watching someone else become the face of the revolution.",
+      "background": "Private Penthouse",
+      "sceneImage": "/scenes/private-penthouse.svg",
+      "character": "You",
+      "choices": []
+    },
+    {
+      "id": "ending-partners",
+      "speaker": "Narrator",
+      "text": "Together, you and Kai expose the truth. The city gets justice, and your bond becomes unbreakable.",
+      "background": "Press Conference",
+      "sceneImage": "/scenes/press-conference.svg",
+      "character": "You + Kai",
+      "choices": []
+    }
+  ]
+}
